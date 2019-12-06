@@ -1,0 +1,107 @@
+#ifndef __WIFI_8266_H_
+#define __WIFI_8266_H_
+
+#include "stm32l4xx_hal.h"
+#include "usart.h"
+
+// 系统信息
+#define AT_RST           "AT+RST\r\n"                   // 重启模块
+#define AT_RSTORE        "AT+RESTORE\r\n"                // 恢复出厂设置
+#define AT_GMR           "AT+GMR\r\n"                   // 查询版本信息
+#define AT_MAC           "AT+CIPSTAMAC_CUR?\r\n"        // 查询MAC地址
+#define AT_STATUS           "AT+CIPSTATUS\r\n"          // 查询状态
+#define AT_CIPSNTPCFG           "AT+CIPSNTPCFG=1,8\r\n" //时间区域设置
+#define AT_CIPSNTPTIME          "AT+CIPSNTPTIME?\r\n"   //查询SNTP时间
+
+//回显
+#define ATE0        "ATE0\r\n"                          // 关闭回显
+#define ATE1        "ATE1\r\n"                          // 打开回显
+
+// 联网设置
+#define AT_CWMODE        "AT+CWMODE=1\r\n"              // station mode
+#define AT_CWMODE_DEF    "AT+CWMODE_DEF=3\r\n"          // softAP+station mode
+#define AT_CWAUTOCONN    "AT+CWAUTOCONN=1\r\n"          // 系统默认上电自动连接
+
+// 配网
+#define AT_CWSTARTSMART  "AT+CWSTARTSMART\r\n"           // 开始smart配置
+#define AT_CWSTOPSMART   "AT+CWSTOPSMART\r\n"            // 停止smart配置
+#define AT_CWQAP         "AT+CWQAP\r\n"                  // 断开路由器
+
+// 服务器
+#define AT_CIPSSLSIZE      "AT+CIPSSLSIZE=4096\r\n"                              // 设置ssl大小
+#define AT_CIPSSLCCONF      "AT+CIPSSLCCONF=3\r\n"                               // 双向认证
+//#define AT_TCP_SERVER    "AT+CIPSTART=\"TCP\",\"192.168.140.118\",9951\r\n"    // 连接服务器
+#define AT_TCP_SERVER    "AT+CIPSTART=\"TCP\",\"192.168.1.156\",8080\r\n"        // 连接服务器
+#define AT_CIPSEND       "AT+CIPSEND=4\r\n"                                      // 发送数据 默认4字节
+#define AT_CIPCLOSE      "AT+CIPCLOSE\r\n"                                       // 断开服务器
+
+// 上报标识
+#define OPEN_UPLOAD         1000
+#define WARN_UPLOAD         2000
+#define ADD_USER_UPLOAD     3001
+#define DELETE_USER_UPLOAD  3002
+#define BATTERY_UPLOAD      4000
+#define SERVER_TIME_UPLOAD      5000
+
+// 报警上报码
+#define LOW_POWER_WARN      0x01
+#define TRY_ERR_WARN        0x02
+#define ANTI_PRY_WARN       0x03
+#define ANTI_HIJACK_WARN    0x04
+
+#define RX_LEN 1024
+#define UPLOAD_MAX   100
+
+typedef struct
+{
+	uint8_t smart_config_flag;
+	uint8_t date_str[16];
+	struct wifi_date{
+			int year;
+			int month;
+			int day;
+			int hour;
+			int min;
+			int sec;
+	}wifi_date_t;
+	uint8_t wifi_mac[16];
+}wifi_sys_info_t;
+
+
+extern wifi_sys_info_t wifi_sys_info;
+
+void wifi_init(void);
+
+uint8_t wifi_smart_config(uint8_t* at_command,uint8_t len);
+
+uint8_t wifi_upload_all_info(void);
+uint8_t wifi_upload_local_info(uint8_t* at_command,uint8_t len_c,uint8_t* str,uint8_t length_s);
+uint8_t wifi_upload_index_get(void);
+uint8_t wifi_upload_battery(uint32_t value);
+
+uint8_t wifi_upload_send(uint8_t* str,uint8_t length_s);
+
+void hal_usart3_recev_irq(UART_HandleTypeDef *huart);  
+
+void wifi_clear_flag_rx(void);
+
+void wifi_power_on(void);
+
+void wifi_power_off(void);
+
+uint8_t wifi_get_mac(uint8_t * mac);
+uint8_t wifi_get_date(wifi_sys_info_t* date);
+uint8_t wifi_get_time(char* time);
+int8_t wifi_get_status(void);
+
+uint8_t wifi_set_time_zone(void);
+
+uint8_t wifi_wait_ready(char* str);
+uint8_t wifi_wait_date(char* date);
+uint8_t wifi_wait_IPD(char* str,uint8_t* data);
+uint8_t wifi_parase_date(char* date);
+uint8_t wifi_parase_time(char* time);
+
+uint8_t wifi_remote_open(uint8_t *password,uint8_t* len,uint8_t* remote_flag);
+
+#endif //__WIFI_8266_H_
