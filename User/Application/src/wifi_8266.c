@@ -812,6 +812,8 @@ LOOP:
 		sprintf(remoteRequestInfo,"%%%s%%%d%%%d%%%d%%%d%%%d%%%s%%#",wifi_sys_info.wifi_mac,OPEN_UPLOAD,0,APP_TYPE,0,0,lock_time);
 		debug_printf(" remoteRequestInfo:%s\r\n",remoteRequestInfo);
 		wifi_upload_send((uint8_t *)remoteRequestInfo,strlen(remoteRequestInfo));
+		HAL_WIFI_STATUE_CHECK(HAL_OK,wifi_trans_recev_command((uint8_t*)AT_CIPCLOSE,sizeof(AT_CIPCLOSE),OK_KEYWORDS,NULL,30));
+		return HAL_ERROR;
 	}else{
 		sprintf(remoteRequestInfo,"%%%s%%%d%%%d%%%d%%%d%%%d%%%s%%#",wifi_sys_info.wifi_mac,OPEN_UPLOAD,
 																				i,APP_TYPE,key_board_flash[i].user_permision,OPEN_DOOR,lock_time);

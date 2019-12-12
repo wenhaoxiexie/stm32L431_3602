@@ -4753,121 +4753,121 @@ Image Symbol Table
     i.wifi_power_off                         0x08014458   Section        0  wifi_8266.o(i.wifi_power_off)
     i.wifi_power_on                          0x08014468   Section        0  wifi_8266.o(i.wifi_power_on)
     i.wifi_remote_open                       0x08014490   Section        0  wifi_8266.o(i.wifi_remote_open)
-    i.wifi_rxBuff_clear                      0x08014c6c   Section        0  wifi_8266.o(i.wifi_rxBuff_clear)
-    i.wifi_server_time_syn                   0x08014c90   Section        0  wifi_8266.o(i.wifi_server_time_syn)
-    wifi_server_time_syn                     0x08014c91   Thumb Code   144  wifi_8266.o(i.wifi_server_time_syn)
-    i.wifi_smart_config                      0x08014da8   Section        0  wifi_8266.o(i.wifi_smart_config)
-    i.wifi_trans_recev_command               0x080150e8   Section        0  wifi_8266.o(i.wifi_trans_recev_command)
-    i.wifi_upload_alarm_info                 0x080151b4   Section        0  wifi_8266.o(i.wifi_upload_alarm_info)
-    i.wifi_upload_all_info                   0x08015284   Section        0  wifi_8266.o(i.wifi_upload_all_info)
-    i.wifi_upload_battery                    0x080156b2   Section        0  wifi_8266.o(i.wifi_upload_battery)
-    i.wifi_upload_send                       0x080156dc   Section        0  wifi_8266.o(i.wifi_upload_send)
-    i.wifi_upload_tryErr_info                0x080158d0   Section        0  wifi_8266.o(i.wifi_upload_tryErr_info)
-    i.wifi_upload_user_info                  0x080159f0   Section        0  wifi_8266.o(i.wifi_upload_user_info)
-    .constdata                               0x08015c3a   Section       58  main.o(.constdata)
-    __FUNCTION__                             0x08015c3a   Data           5  main.o(.constdata)
-    __FUNCTION__                             0x08015c3f   Data          23  main.o(.constdata)
-    __FUNCTION__                             0x08015c56   Data          30  main.o(.constdata)
-    .constdata                               0x08015c74   Section       64  system_stm32l4xx.o(.constdata)
-    .constdata                               0x08015cb4   Section        8  system_stm32l4xx.o(.constdata)
-    .constdata                               0x08015cbc   Section       34  apt8l16.o(.constdata)
-    __FUNCTION__                             0x08015cbc   Data          17  apt8l16.o(.constdata)
-    __FUNCTION__                             0x08015ccd   Data          17  apt8l16.o(.constdata)
-    .constdata                               0x08015cde   Section    22045  ssd1305.o(.constdata)
-    __FUNCTION__                             0x0801b26e   Data          22  ssd1305.o(.constdata)
-    __FUNCTION__                             0x0801b284   Data          21  ssd1305.o(.constdata)
-    __FUNCTION__                             0x0801b299   Data          28  ssd1305.o(.constdata)
-    __FUNCTION__                             0x0801b2b5   Data          20  ssd1305.o(.constdata)
-    __FUNCTION__                             0x0801b2c9   Data          27  ssd1305.o(.constdata)
-    __FUNCTION__                             0x0801b2e4   Data          23  ssd1305.o(.constdata)
-    .constdata                               0x0801b2fb   Section       38  stmflash.o(.constdata)
-    __FUNCTION__                             0x0801b2fb   Data          22  stmflash.o(.constdata)
-    __FUNCTION__                             0x0801b311   Data          16  stmflash.o(.constdata)
-    .constdata                               0x0801b321   Section       25  nfc9883.o(.constdata)
-    __FUNCTION__                             0x0801b321   Data          13  nfc9883.o(.constdata)
-    __FUNCTION__                             0x0801b32e   Data          12  nfc9883.o(.constdata)
-    .constdata                               0x0801b33c   Section      128  menu.o(.constdata)
-    __FUNCTION__                             0x0801b340   Data          16  menu.o(.constdata)
-    __FUNCTION__                             0x0801b350   Data          13  menu.o(.constdata)
-    __FUNCTION__                             0x0801b35d   Data          15  menu.o(.constdata)
-    __FUNCTION__                             0x0801b36c   Data          13  menu.o(.constdata)
-    __FUNCTION__                             0x0801b379   Data          11  menu.o(.constdata)
-    __FUNCTION__                             0x0801b384   Data          14  menu.o(.constdata)
-    __FUNCTION__                             0x0801b392   Data          13  menu.o(.constdata)
-    __FUNCTION__                             0x0801b39f   Data          18  menu.o(.constdata)
-    __FUNCTION__                             0x0801b3b1   Data          11  menu.o(.constdata)
-    .constdata                               0x0801b3bc   Section      221  user_operator.o(.constdata)
-    __FUNCTION__                             0x0801b3bc   Data          23  user_operator.o(.constdata)
-    __FUNCTION__                             0x0801b3d3   Data          26  user_operator.o(.constdata)
-    __FUNCTION__                             0x0801b3ed   Data          20  user_operator.o(.constdata)
-    __FUNCTION__                             0x0801b401   Data          22  user_operator.o(.constdata)
-    __FUNCTION__                             0x0801b417   Data          18  user_operator.o(.constdata)
-    __FUNCTION__                             0x0801b429   Data          30  user_operator.o(.constdata)
-    __FUNCTION__                             0x0801b488   Data          17  user_operator.o(.constdata)
-    .constdata                               0x0801b499   Section       71  keyboard.o(.constdata)
-    __FUNCTION__                             0x0801b499   Data          23  keyboard.o(.constdata)
-    __FUNCTION__                             0x0801b4b0   Data          22  keyboard.o(.constdata)
-    __FUNCTION__                             0x0801b4c6   Data          26  keyboard.o(.constdata)
-    .constdata                               0x0801b4e0   Section       29  fpcst90x.o(.constdata)
-    __FUNCTION__                             0x0801b4e0   Data           7  fpcst90x.o(.constdata)
-    __FUNCTION__                             0x0801b4e7   Data          12  fpcst90x.o(.constdata)
-    __FUNCTION__                             0x0801b4f3   Data          10  fpcst90x.o(.constdata)
-    .constdata                               0x0801b4fd   Section       11  flash.o(.constdata)
-    __FUNCTION__                             0x0801b4fd   Data          11  flash.o(.constdata)
-    .constdata                               0x0801b508   Section       19  nfc.o(.constdata)
-    __FUNCTION__                             0x0801b508   Data           8  nfc.o(.constdata)
-    __FUNCTION__                             0x0801b510   Data          11  nfc.o(.constdata)
-    .constdata                               0x0801b51c   Section      346  wifi_8266.o(.constdata)
-    __FUNCTION__                             0x0801b51c   Data          18  wifi_8266.o(.constdata)
-    __FUNCTION__                             0x0801b52e   Data          22  wifi_8266.o(.constdata)
-    __FUNCTION__                             0x0801b544   Data          21  wifi_8266.o(.constdata)
-    __FUNCTION__                             0x0801b59c   Data          21  wifi_8266.o(.constdata)
-    __FUNCTION__                             0x0801b5b1   Data          24  wifi_8266.o(.constdata)
-    __FUNCTION__                             0x0801b5c9   Data          17  wifi_8266.o(.constdata)
-    __FUNCTION__                             0x0801b5da   Data          17  wifi_8266.o(.constdata)
-    __FUNCTION__                             0x0801b5eb   Data          17  wifi_8266.o(.constdata)
-    __FUNCTION__                             0x0801b638   Data          19  wifi_8266.o(.constdata)
-    __FUNCTION__                             0x0801b64b   Data          18  wifi_8266.o(.constdata)
-    __FUNCTION__                             0x0801b65d   Data          25  wifi_8266.o(.constdata)
-    .constdata                               0x0801b676   Section      312  phhalhw_rc663.o(.constdata)
-    wRc663_DefaultShadow_I14443a             0x0801b676   Data          40  phhalhw_rc663.o(.constdata)
-    wRc663_DefaultShadow_I14443b             0x0801b69e   Data          44  phhalhw_rc663.o(.constdata)
-    wRc663_DefaultShadow_Felica              0x0801b6ca   Data          44  phhalhw_rc663.o(.constdata)
-    wRc663_DefaultShadow_I15693              0x0801b6f6   Data          48  phhalhw_rc663.o(.constdata)
-    wRc663_DefaultShadow_EpcUid              0x0801b726   Data          44  phhalhw_rc663.o(.constdata)
-    wRc663_DefaultShadow_I18000p3m3          0x0801b752   Data          48  phhalhw_rc663.o(.constdata)
-    wRc663_DefaultShadow_I18092mPI           0x0801b782   Data          44  phhalhw_rc663.o(.constdata)
-    .constdata                               0x0801b7ae   Section       13  regctl_spihw.o(.constdata)
-    __FUNCTION__                             0x0801b7ae   Data          13  regctl_spihw.o(.constdata)
-    .constdata                               0x0801b7bc   Section      382  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_Registers                0x0801b7bc   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I14443A_106              0x0801b7cb   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I14443A_212              0x0801b7da   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I14443A_424              0x0801b7e9   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I14443A_848              0x0801b7f8   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I14443B_106              0x0801b807   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I14443B_212              0x0801b816   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I14443B_424              0x0801b825   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I14443B_848              0x0801b834   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_Felica_212               0x0801b843   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_Felica_424               0x0801b852   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I15693_High              0x0801b861   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I15693_Fast_High         0x0801b870   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_EpcUid                   0x0801b87f   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I18000p3m3_DSM2          0x0801b88e   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I18000p3m3_DSM4          0x0801b89d   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I18000p3m3_QSM2          0x0801b8ac   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_I18000p3m3_QSM4          0x0801b8bb   Data          15  phhalhw_rc663_int.o(.constdata)
-    gkphhalHw_Rc663_DigiDelays_Us            0x0801b8ca   Data          56  phhalhw_rc663_int.o(.constdata)
-    __FUNCTION__                             0x0801b902   Data          26  phhalhw_rc663_int.o(.constdata)
-    __FUNCTION__                             0x0801b91c   Data          30  phhalhw_rc663_int.o(.constdata)
-    .constdata                               0x0801b93a   Section       22  phhalhw_rc663_wait.o(.constdata)
-    __FUNCTION__                             0x0801b93a   Data          22  phhalhw_rc663_wait.o(.constdata)
-    .constdata                               0x0801b950   Section      129  ctype_o.o(.constdata)
-    .constdata                               0x0801b9d4   Section        4  ctype_o.o(.constdata)
-    table                                    0x0801b9d4   Data           4  ctype_o.o(.constdata)
-    .conststring                             0x0801b9d8   Section       67  menu.o(.conststring)
-    .conststring                             0x0801ba1c   Section      146  wifi_8266.o(.conststring)
+    i.wifi_rxBuff_clear                      0x08014ca0   Section        0  wifi_8266.o(i.wifi_rxBuff_clear)
+    i.wifi_server_time_syn                   0x08014cc4   Section        0  wifi_8266.o(i.wifi_server_time_syn)
+    wifi_server_time_syn                     0x08014cc5   Thumb Code   144  wifi_8266.o(i.wifi_server_time_syn)
+    i.wifi_smart_config                      0x08014ddc   Section        0  wifi_8266.o(i.wifi_smart_config)
+    i.wifi_trans_recev_command               0x0801511c   Section        0  wifi_8266.o(i.wifi_trans_recev_command)
+    i.wifi_upload_alarm_info                 0x080151e8   Section        0  wifi_8266.o(i.wifi_upload_alarm_info)
+    i.wifi_upload_all_info                   0x080152b8   Section        0  wifi_8266.o(i.wifi_upload_all_info)
+    i.wifi_upload_battery                    0x080156e6   Section        0  wifi_8266.o(i.wifi_upload_battery)
+    i.wifi_upload_send                       0x08015710   Section        0  wifi_8266.o(i.wifi_upload_send)
+    i.wifi_upload_tryErr_info                0x08015904   Section        0  wifi_8266.o(i.wifi_upload_tryErr_info)
+    i.wifi_upload_user_info                  0x08015a24   Section        0  wifi_8266.o(i.wifi_upload_user_info)
+    .constdata                               0x08015c6e   Section       58  main.o(.constdata)
+    __FUNCTION__                             0x08015c6e   Data           5  main.o(.constdata)
+    __FUNCTION__                             0x08015c73   Data          23  main.o(.constdata)
+    __FUNCTION__                             0x08015c8a   Data          30  main.o(.constdata)
+    .constdata                               0x08015ca8   Section       64  system_stm32l4xx.o(.constdata)
+    .constdata                               0x08015ce8   Section        8  system_stm32l4xx.o(.constdata)
+    .constdata                               0x08015cf0   Section       34  apt8l16.o(.constdata)
+    __FUNCTION__                             0x08015cf0   Data          17  apt8l16.o(.constdata)
+    __FUNCTION__                             0x08015d01   Data          17  apt8l16.o(.constdata)
+    .constdata                               0x08015d12   Section    22045  ssd1305.o(.constdata)
+    __FUNCTION__                             0x0801b2a2   Data          22  ssd1305.o(.constdata)
+    __FUNCTION__                             0x0801b2b8   Data          21  ssd1305.o(.constdata)
+    __FUNCTION__                             0x0801b2cd   Data          28  ssd1305.o(.constdata)
+    __FUNCTION__                             0x0801b2e9   Data          20  ssd1305.o(.constdata)
+    __FUNCTION__                             0x0801b2fd   Data          27  ssd1305.o(.constdata)
+    __FUNCTION__                             0x0801b318   Data          23  ssd1305.o(.constdata)
+    .constdata                               0x0801b32f   Section       38  stmflash.o(.constdata)
+    __FUNCTION__                             0x0801b32f   Data          22  stmflash.o(.constdata)
+    __FUNCTION__                             0x0801b345   Data          16  stmflash.o(.constdata)
+    .constdata                               0x0801b355   Section       25  nfc9883.o(.constdata)
+    __FUNCTION__                             0x0801b355   Data          13  nfc9883.o(.constdata)
+    __FUNCTION__                             0x0801b362   Data          12  nfc9883.o(.constdata)
+    .constdata                               0x0801b370   Section      128  menu.o(.constdata)
+    __FUNCTION__                             0x0801b374   Data          16  menu.o(.constdata)
+    __FUNCTION__                             0x0801b384   Data          13  menu.o(.constdata)
+    __FUNCTION__                             0x0801b391   Data          15  menu.o(.constdata)
+    __FUNCTION__                             0x0801b3a0   Data          13  menu.o(.constdata)
+    __FUNCTION__                             0x0801b3ad   Data          11  menu.o(.constdata)
+    __FUNCTION__                             0x0801b3b8   Data          14  menu.o(.constdata)
+    __FUNCTION__                             0x0801b3c6   Data          13  menu.o(.constdata)
+    __FUNCTION__                             0x0801b3d3   Data          18  menu.o(.constdata)
+    __FUNCTION__                             0x0801b3e5   Data          11  menu.o(.constdata)
+    .constdata                               0x0801b3f0   Section      221  user_operator.o(.constdata)
+    __FUNCTION__                             0x0801b3f0   Data          23  user_operator.o(.constdata)
+    __FUNCTION__                             0x0801b407   Data          26  user_operator.o(.constdata)
+    __FUNCTION__                             0x0801b421   Data          20  user_operator.o(.constdata)
+    __FUNCTION__                             0x0801b435   Data          22  user_operator.o(.constdata)
+    __FUNCTION__                             0x0801b44b   Data          18  user_operator.o(.constdata)
+    __FUNCTION__                             0x0801b45d   Data          30  user_operator.o(.constdata)
+    __FUNCTION__                             0x0801b4bc   Data          17  user_operator.o(.constdata)
+    .constdata                               0x0801b4cd   Section       71  keyboard.o(.constdata)
+    __FUNCTION__                             0x0801b4cd   Data          23  keyboard.o(.constdata)
+    __FUNCTION__                             0x0801b4e4   Data          22  keyboard.o(.constdata)
+    __FUNCTION__                             0x0801b4fa   Data          26  keyboard.o(.constdata)
+    .constdata                               0x0801b514   Section       29  fpcst90x.o(.constdata)
+    __FUNCTION__                             0x0801b514   Data           7  fpcst90x.o(.constdata)
+    __FUNCTION__                             0x0801b51b   Data          12  fpcst90x.o(.constdata)
+    __FUNCTION__                             0x0801b527   Data          10  fpcst90x.o(.constdata)
+    .constdata                               0x0801b531   Section       11  flash.o(.constdata)
+    __FUNCTION__                             0x0801b531   Data          11  flash.o(.constdata)
+    .constdata                               0x0801b53c   Section       19  nfc.o(.constdata)
+    __FUNCTION__                             0x0801b53c   Data           8  nfc.o(.constdata)
+    __FUNCTION__                             0x0801b544   Data          11  nfc.o(.constdata)
+    .constdata                               0x0801b550   Section      346  wifi_8266.o(.constdata)
+    __FUNCTION__                             0x0801b550   Data          18  wifi_8266.o(.constdata)
+    __FUNCTION__                             0x0801b562   Data          22  wifi_8266.o(.constdata)
+    __FUNCTION__                             0x0801b578   Data          21  wifi_8266.o(.constdata)
+    __FUNCTION__                             0x0801b5d0   Data          21  wifi_8266.o(.constdata)
+    __FUNCTION__                             0x0801b5e5   Data          24  wifi_8266.o(.constdata)
+    __FUNCTION__                             0x0801b5fd   Data          17  wifi_8266.o(.constdata)
+    __FUNCTION__                             0x0801b60e   Data          17  wifi_8266.o(.constdata)
+    __FUNCTION__                             0x0801b61f   Data          17  wifi_8266.o(.constdata)
+    __FUNCTION__                             0x0801b66c   Data          19  wifi_8266.o(.constdata)
+    __FUNCTION__                             0x0801b67f   Data          18  wifi_8266.o(.constdata)
+    __FUNCTION__                             0x0801b691   Data          25  wifi_8266.o(.constdata)
+    .constdata                               0x0801b6aa   Section      312  phhalhw_rc663.o(.constdata)
+    wRc663_DefaultShadow_I14443a             0x0801b6aa   Data          40  phhalhw_rc663.o(.constdata)
+    wRc663_DefaultShadow_I14443b             0x0801b6d2   Data          44  phhalhw_rc663.o(.constdata)
+    wRc663_DefaultShadow_Felica              0x0801b6fe   Data          44  phhalhw_rc663.o(.constdata)
+    wRc663_DefaultShadow_I15693              0x0801b72a   Data          48  phhalhw_rc663.o(.constdata)
+    wRc663_DefaultShadow_EpcUid              0x0801b75a   Data          44  phhalhw_rc663.o(.constdata)
+    wRc663_DefaultShadow_I18000p3m3          0x0801b786   Data          48  phhalhw_rc663.o(.constdata)
+    wRc663_DefaultShadow_I18092mPI           0x0801b7b6   Data          44  phhalhw_rc663.o(.constdata)
+    .constdata                               0x0801b7e2   Section       13  regctl_spihw.o(.constdata)
+    __FUNCTION__                             0x0801b7e2   Data          13  regctl_spihw.o(.constdata)
+    .constdata                               0x0801b7f0   Section      382  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_Registers                0x0801b7f0   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I14443A_106              0x0801b7ff   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I14443A_212              0x0801b80e   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I14443A_424              0x0801b81d   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I14443A_848              0x0801b82c   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I14443B_106              0x0801b83b   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I14443B_212              0x0801b84a   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I14443B_424              0x0801b859   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I14443B_848              0x0801b868   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_Felica_212               0x0801b877   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_Felica_424               0x0801b886   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I15693_High              0x0801b895   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I15693_Fast_High         0x0801b8a4   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_EpcUid                   0x0801b8b3   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I18000p3m3_DSM2          0x0801b8c2   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I18000p3m3_DSM4          0x0801b8d1   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I18000p3m3_QSM2          0x0801b8e0   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_I18000p3m3_QSM4          0x0801b8ef   Data          15  phhalhw_rc663_int.o(.constdata)
+    gkphhalHw_Rc663_DigiDelays_Us            0x0801b8fe   Data          56  phhalhw_rc663_int.o(.constdata)
+    __FUNCTION__                             0x0801b936   Data          26  phhalhw_rc663_int.o(.constdata)
+    __FUNCTION__                             0x0801b950   Data          30  phhalhw_rc663_int.o(.constdata)
+    .constdata                               0x0801b96e   Section       22  phhalhw_rc663_wait.o(.constdata)
+    __FUNCTION__                             0x0801b96e   Data          22  phhalhw_rc663_wait.o(.constdata)
+    .constdata                               0x0801b984   Section      129  ctype_o.o(.constdata)
+    .constdata                               0x0801ba08   Section        4  ctype_o.o(.constdata)
+    table                                    0x0801ba08   Data           4  ctype_o.o(.constdata)
+    .conststring                             0x0801ba0c   Section       67  menu.o(.conststring)
+    .conststring                             0x0801ba50   Section      146  wifi_8266.o(.conststring)
     .data                                    0x20000000   Section       20  main.o(.data)
     .data                                    0x20000014   Section        4  main.o(.data)
     .data                                    0x20000018   Section        1  main.o(.data)
@@ -5492,136 +5492,136 @@ Image Symbol Table
     wifi_parase_time                         0x08014185   Thumb Code   532  wifi_8266.o(i.wifi_parase_time)
     wifi_power_off                           0x08014459   Thumb Code    12  wifi_8266.o(i.wifi_power_off)
     wifi_power_on                            0x08014469   Thumb Code    26  wifi_8266.o(i.wifi_power_on)
-    wifi_remote_open                         0x08014491   Thumb Code  1994  wifi_8266.o(i.wifi_remote_open)
-    wifi_rxBuff_clear                        0x08014c6d   Thumb Code    26  wifi_8266.o(i.wifi_rxBuff_clear)
-    wifi_smart_config                        0x08014da9   Thumb Code   376  wifi_8266.o(i.wifi_smart_config)
-    wifi_trans_recev_command                 0x080150e9   Thumb Code    78  wifi_8266.o(i.wifi_trans_recev_command)
-    wifi_upload_alarm_info                   0x080151b5   Thumb Code   140  wifi_8266.o(i.wifi_upload_alarm_info)
-    wifi_upload_all_info                     0x08015285   Thumb Code   646  wifi_8266.o(i.wifi_upload_all_info)
-    wifi_upload_battery                      0x080156b3   Thumb Code    40  wifi_8266.o(i.wifi_upload_battery)
-    wifi_upload_send                         0x080156dd   Thumb Code   364  wifi_8266.o(i.wifi_upload_send)
-    wifi_upload_tryErr_info                  0x080158d1   Thumb Code   160  wifi_8266.o(i.wifi_upload_tryErr_info)
-    wifi_upload_user_info                    0x080159f1   Thumb Code   374  wifi_8266.o(i.wifi_upload_user_info)
-    AHBPrescTable                            0x08015c74   Data          16  system_stm32l4xx.o(.constdata)
-    MSIRangeTable                            0x08015c84   Data          48  system_stm32l4xx.o(.constdata)
-    APBPrescTable                            0x08015cb4   Data           8  system_stm32l4xx.o(.constdata)
-    NUMBER                                   0x08015cde   Data         160  ssd1305.o(.constdata)
-    CHARACTER                                0x08015d7e   Data         416  ssd1305.o(.constdata)
-    NUMBER_DEL                               0x08015f1e   Data          16  ssd1305.o(.constdata)
-    PASSWORD_WARN                            0x08015f2e   Data         304  ssd1305.o(.constdata)
-    PASSWORD_WARN_AGAIN                      0x0801605e   Data         368  ssd1305.o(.constdata)
-    PASSWORD_PUT                             0x080161ce   Data         160  ssd1305.o(.constdata)
-    PASSWORD_NULL                            0x0801626e   Data         128  ssd1305.o(.constdata)
-    PASSWORD_ANDMIN                          0x080162ee   Data         192  ssd1305.o(.constdata)
-    PASSWORD_FULL                            0x080163ae   Data         128  ssd1305.o(.constdata)
-    PASSWORD_EXIT                            0x0801642e   Data         160  ssd1305.o(.constdata)
-    ADD_USER                                 0x080164ce   Data         160  ssd1305.o(.constdata)
-    DEL_USER                                 0x0801656e   Data         160  ssd1305.o(.constdata)
-    SYS_SET                                  0x0801660e   Data         160  ssd1305.o(.constdata)
-    SYS_INFO                                 0x080166ae   Data         160  ssd1305.o(.constdata)
-    ADMIN                                    0x0801674e   Data         128  ssd1305.o(.constdata)
-    USER                                     0x080167ce   Data         160  ssd1305.o(.constdata)
-    USER_SE                                  0x0801686e   Data         192  ssd1305.o(.constdata)
-    ADD_FINGER                               0x0801692e   Data         160  ssd1305.o(.constdata)
-    ADD_PASSWORD                             0x080169ce   Data         160  ssd1305.o(.constdata)
-    ADD_CARD                                 0x08016a6e   Data         192  ssd1305.o(.constdata)
-    DEL_FINGER                               0x08016b2e   Data         160  ssd1305.o(.constdata)
-    DEL_PASSWORD                             0x08016bce   Data         160  ssd1305.o(.constdata)
-    DEL_CARD                                 0x08016c6e   Data         192  ssd1305.o(.constdata)
-    VOICE_SET                                0x08016d2e   Data         160  ssd1305.o(.constdata)
-    WAN_SET                                  0x08016dce   Data         160  ssd1305.o(.constdata)
-    DATA_SET                                 0x08016e6e   Data         160  ssd1305.o(.constdata)
-    FACTORY_SET                              0x08016f0e   Data         224  ssd1305.o(.constdata)
-    VOICE_HIGH                               0x08016fee   Data         128  ssd1305.o(.constdata)
-    VOICE_MID                                0x0801706e   Data         128  ssd1305.o(.constdata)
-    VOICE_LOW                                0x080170ee   Data         128  ssd1305.o(.constdata)
-    VOICE_OFF                                0x0801716e   Data          96  ssd1305.o(.constdata)
-    SPE_CHART                                0x080171ce   Data          32  ssd1305.o(.constdata)
-    SPE_CHART_DEL                            0x080171ee   Data          16  ssd1305.o(.constdata)
-    company3                                 0x080171fe   Data        1024  ssd1305.o(.constdata)
-    CHECK_FAILED                             0x080175fe   Data         128  ssd1305.o(.constdata)
-    CHECK_SUCESSFUL                          0x0801767e   Data         128  ssd1305.o(.constdata)
-    OPERATE_F                                0x080176fe   Data         128  ssd1305.o(.constdata)
-    OPERATE_S                                0x0801777e   Data         128  ssd1305.o(.constdata)
-    CHECK_EXIT                               0x080177fe   Data         160  ssd1305.o(.constdata)
-    DEL_SUCESS                               0x0801789e   Data         128  ssd1305.o(.constdata)
-    DEL_FAILE                                0x0801791e   Data         128  ssd1305.o(.constdata)
-    NUM_PASSWORD                             0x0801799e   Data          96  ssd1305.o(.constdata)
-    NUM_FINGER                               0x080179fe   Data          96  ssd1305.o(.constdata)
-    PASSWORD_LOCK                            0x08017a5e   Data          96  ssd1305.o(.constdata)
-    NUM_CARD                                 0x08017abe   Data          96  ssd1305.o(.constdata)
-    FP_CHECK                                 0x08017b1e   Data         128  ssd1305.o(.constdata)
-    FP_PRESS                                 0x08017b9e   Data         128  ssd1305.o(.constdata)
-    FP_COLLECT                               0x08017c1e   Data         192  ssd1305.o(.constdata)
-    FP_SUCESS                                0x08017cde   Data         192  ssd1305.o(.constdata)
-    FP_FAILE                                 0x08017d9e   Data         192  ssd1305.o(.constdata)
-    FP_EXIT                                  0x08017e5e   Data         160  ssd1305.o(.constdata)
-    FP_OUTTIME                               0x08017efe   Data         192  ssd1305.o(.constdata)
-    FP_DEL_SUCESS                            0x08017fbe   Data         128  ssd1305.o(.constdata)
-    FP_DEL_FAILE                             0x0801803e   Data         192  ssd1305.o(.constdata)
-    FP_DEL_NO_EXIT                           0x080180fe   Data         160  ssd1305.o(.constdata)
-    FP_NULL                                  0x0801819e   Data         128  ssd1305.o(.constdata)
-    FP_REALSE                                0x0801821e   Data         160  ssd1305.o(.constdata)
-    FP_FULL                                  0x080182be   Data         128  ssd1305.o(.constdata)
-    SET_SUCESS                               0x0801833e   Data         128  ssd1305.o(.constdata)
-    SET_FAIL                                 0x080183be   Data         128  ssd1305.o(.constdata)
-    CONFIRM_SUCESS                           0x0801843e   Data         832  ssd1305.o(.constdata)
-    APP_OPEN                                 0x0801877e   Data         176  ssd1305.o(.constdata)
-    FACTORY_WHETHER                          0x0801882e   Data         320  ssd1305.o(.constdata)
-    DATE_SHOW                                0x0801896e   Data         128  ssd1305.o(.constdata)
-    DATE_LOG                                 0x080189ee   Data         640  ssd1305.o(.constdata)
-    SYS_VER                                  0x08018c6e   Data         512  ssd1305.o(.constdata)
-    MAC                                      0x08018e6e   Data          80  ssd1305.o(.constdata)
-    BATTERY                                  0x08018ebe   Data         288  ssd1305.o(.constdata)
-    BATTERY_CLASS                            0x08018fde   Data          96  ssd1305.o(.constdata)
-    SOURCE_USED                              0x0801903e   Data         640  ssd1305.o(.constdata)
-    LOG_NULL                                 0x080192be   Data         128  ssd1305.o(.constdata)
-    LOG_HEAD                                 0x0801933e   Data         144  ssd1305.o(.constdata)
-    LOG_STATE                                0x080193ce   Data         272  ssd1305.o(.constdata)
-    LOG_DATE                                 0x080194de   Data         240  ssd1305.o(.constdata)
-    LOG_TIME                                 0x080195ce   Data         208  ssd1305.o(.constdata)
-    LOG_PERMISION                            0x0801969e   Data         192  ssd1305.o(.constdata)
-    LOG_TYPE                                 0x0801975e   Data         192  ssd1305.o(.constdata)
-    LOG_OPER                                 0x0801981e   Data         192  ssd1305.o(.constdata)
-    TIME_SYS                                 0x080198de   Data         240  ssd1305.o(.constdata)
-    CARD_NON_EXIT                            0x080199ce   Data         160  ssd1305.o(.constdata)
-    CARD_FULL                                0x08019a6e   Data         128  ssd1305.o(.constdata)
-    CARD_RIGISTER                            0x08019aee   Data         160  ssd1305.o(.constdata)
-    CARD_EXIT                                0x08019b8e   Data         160  ssd1305.o(.constdata)
-    CARD_ADD_SUC                             0x08019c2e   Data         128  ssd1305.o(.constdata)
-    CARD_NULL                                0x08019cae   Data         128  ssd1305.o(.constdata)
-    SYS_RESET                                0x08019d2e   Data         240  ssd1305.o(.constdata)
-    SYS_EXIT                                 0x08019e1e   Data         128  ssd1305.o(.constdata)
-    HOOK                                     0x08019e9e   Data          16  ssd1305.o(.constdata)
-    CONFIG_WLAN                              0x08019eae   Data         416  ssd1305.o(.constdata)
-    WLAN_COUNTDOWN                           0x0801a04e   Data         160  ssd1305.o(.constdata)
-    WLAN_TIME_SYS                            0x0801a0ee   Data         256  ssd1305.o(.constdata)
-    WLAN_UNLOCK_COUNTDOWN                    0x0801a1ee   Data         224  ssd1305.o(.constdata)
-    BATTERY_UPDATE                           0x0801a2ce   Data         176  ssd1305.o(.constdata)
-    BATTERY_WARN                             0x0801a37e   Data         320  ssd1305.o(.constdata)
-    WLAN_SUCESSFUL                           0x0801a4be   Data         128  ssd1305.o(.constdata)
-    WLAN_FAIL                                0x0801a53e   Data         128  ssd1305.o(.constdata)
-    WLAN_STARTUP                             0x0801a5be   Data         176  ssd1305.o(.constdata)
-    WLAN_SUCESS_F                            0x0801a66e   Data         192  ssd1305.o(.constdata)
-    WLAN_FAIL_F                              0x0801a72e   Data         144  ssd1305.o(.constdata)
-    HJS_COUNT                                0x0801a7be   Data         192  ssd1305.o(.constdata)
-    FACTORY_S                                0x0801a87e   Data         128  ssd1305.o(.constdata)
-    FACTORY_F                                0x0801a8fe   Data         128  ssd1305.o(.constdata)
-    FACTORY_SEL                              0x0801a97e   Data         304  ssd1305.o(.constdata)
-    KEY_FACTORY                              0x0801aaae   Data         128  ssd1305.o(.constdata)
-    WLAN_STATUE                              0x0801ab2e   Data         448  ssd1305.o(.constdata)
-    KEY_LOCK                                 0x0801acee   Data         224  ssd1305.o(.constdata)
-    IPHONE_RESULT                            0x0801adce   Data         224  ssd1305.o(.constdata)
-    IPHONE_NONEXISTENT                       0x0801aeae   Data         224  ssd1305.o(.constdata)
-    IPHONE_OFFLINE                           0x0801af8e   Data         112  ssd1305.o(.constdata)
-    IPHONE_APPOINT                           0x0801affe   Data         384  ssd1305.o(.constdata)
-    IPHONE_NUM                               0x0801b17e   Data         192  ssd1305.o(.constdata)
-    LINE_D                                   0x0801b23e   Data          16  ssd1305.o(.constdata)
-    DOUBLE_SPOT                              0x0801b24e   Data          16  ssd1305.o(.constdata)
-    LINE                                     0x0801b25e   Data          16  ssd1305.o(.constdata)
-    __ctype_table                            0x0801b950   Data         129  ctype_o.o(.constdata)
-    Region$$Table$$Base                      0x0801bab0   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x0801bad0   Number         0  anon$$obj.o(Region$$Table)
+    wifi_remote_open                         0x08014491   Thumb Code  2046  wifi_8266.o(i.wifi_remote_open)
+    wifi_rxBuff_clear                        0x08014ca1   Thumb Code    26  wifi_8266.o(i.wifi_rxBuff_clear)
+    wifi_smart_config                        0x08014ddd   Thumb Code   376  wifi_8266.o(i.wifi_smart_config)
+    wifi_trans_recev_command                 0x0801511d   Thumb Code    78  wifi_8266.o(i.wifi_trans_recev_command)
+    wifi_upload_alarm_info                   0x080151e9   Thumb Code   140  wifi_8266.o(i.wifi_upload_alarm_info)
+    wifi_upload_all_info                     0x080152b9   Thumb Code   646  wifi_8266.o(i.wifi_upload_all_info)
+    wifi_upload_battery                      0x080156e7   Thumb Code    40  wifi_8266.o(i.wifi_upload_battery)
+    wifi_upload_send                         0x08015711   Thumb Code   364  wifi_8266.o(i.wifi_upload_send)
+    wifi_upload_tryErr_info                  0x08015905   Thumb Code   160  wifi_8266.o(i.wifi_upload_tryErr_info)
+    wifi_upload_user_info                    0x08015a25   Thumb Code   374  wifi_8266.o(i.wifi_upload_user_info)
+    AHBPrescTable                            0x08015ca8   Data          16  system_stm32l4xx.o(.constdata)
+    MSIRangeTable                            0x08015cb8   Data          48  system_stm32l4xx.o(.constdata)
+    APBPrescTable                            0x08015ce8   Data           8  system_stm32l4xx.o(.constdata)
+    NUMBER                                   0x08015d12   Data         160  ssd1305.o(.constdata)
+    CHARACTER                                0x08015db2   Data         416  ssd1305.o(.constdata)
+    NUMBER_DEL                               0x08015f52   Data          16  ssd1305.o(.constdata)
+    PASSWORD_WARN                            0x08015f62   Data         304  ssd1305.o(.constdata)
+    PASSWORD_WARN_AGAIN                      0x08016092   Data         368  ssd1305.o(.constdata)
+    PASSWORD_PUT                             0x08016202   Data         160  ssd1305.o(.constdata)
+    PASSWORD_NULL                            0x080162a2   Data         128  ssd1305.o(.constdata)
+    PASSWORD_ANDMIN                          0x08016322   Data         192  ssd1305.o(.constdata)
+    PASSWORD_FULL                            0x080163e2   Data         128  ssd1305.o(.constdata)
+    PASSWORD_EXIT                            0x08016462   Data         160  ssd1305.o(.constdata)
+    ADD_USER                                 0x08016502   Data         160  ssd1305.o(.constdata)
+    DEL_USER                                 0x080165a2   Data         160  ssd1305.o(.constdata)
+    SYS_SET                                  0x08016642   Data         160  ssd1305.o(.constdata)
+    SYS_INFO                                 0x080166e2   Data         160  ssd1305.o(.constdata)
+    ADMIN                                    0x08016782   Data         128  ssd1305.o(.constdata)
+    USER                                     0x08016802   Data         160  ssd1305.o(.constdata)
+    USER_SE                                  0x080168a2   Data         192  ssd1305.o(.constdata)
+    ADD_FINGER                               0x08016962   Data         160  ssd1305.o(.constdata)
+    ADD_PASSWORD                             0x08016a02   Data         160  ssd1305.o(.constdata)
+    ADD_CARD                                 0x08016aa2   Data         192  ssd1305.o(.constdata)
+    DEL_FINGER                               0x08016b62   Data         160  ssd1305.o(.constdata)
+    DEL_PASSWORD                             0x08016c02   Data         160  ssd1305.o(.constdata)
+    DEL_CARD                                 0x08016ca2   Data         192  ssd1305.o(.constdata)
+    VOICE_SET                                0x08016d62   Data         160  ssd1305.o(.constdata)
+    WAN_SET                                  0x08016e02   Data         160  ssd1305.o(.constdata)
+    DATA_SET                                 0x08016ea2   Data         160  ssd1305.o(.constdata)
+    FACTORY_SET                              0x08016f42   Data         224  ssd1305.o(.constdata)
+    VOICE_HIGH                               0x08017022   Data         128  ssd1305.o(.constdata)
+    VOICE_MID                                0x080170a2   Data         128  ssd1305.o(.constdata)
+    VOICE_LOW                                0x08017122   Data         128  ssd1305.o(.constdata)
+    VOICE_OFF                                0x080171a2   Data          96  ssd1305.o(.constdata)
+    SPE_CHART                                0x08017202   Data          32  ssd1305.o(.constdata)
+    SPE_CHART_DEL                            0x08017222   Data          16  ssd1305.o(.constdata)
+    company3                                 0x08017232   Data        1024  ssd1305.o(.constdata)
+    CHECK_FAILED                             0x08017632   Data         128  ssd1305.o(.constdata)
+    CHECK_SUCESSFUL                          0x080176b2   Data         128  ssd1305.o(.constdata)
+    OPERATE_F                                0x08017732   Data         128  ssd1305.o(.constdata)
+    OPERATE_S                                0x080177b2   Data         128  ssd1305.o(.constdata)
+    CHECK_EXIT                               0x08017832   Data         160  ssd1305.o(.constdata)
+    DEL_SUCESS                               0x080178d2   Data         128  ssd1305.o(.constdata)
+    DEL_FAILE                                0x08017952   Data         128  ssd1305.o(.constdata)
+    NUM_PASSWORD                             0x080179d2   Data          96  ssd1305.o(.constdata)
+    NUM_FINGER                               0x08017a32   Data          96  ssd1305.o(.constdata)
+    PASSWORD_LOCK                            0x08017a92   Data          96  ssd1305.o(.constdata)
+    NUM_CARD                                 0x08017af2   Data          96  ssd1305.o(.constdata)
+    FP_CHECK                                 0x08017b52   Data         128  ssd1305.o(.constdata)
+    FP_PRESS                                 0x08017bd2   Data         128  ssd1305.o(.constdata)
+    FP_COLLECT                               0x08017c52   Data         192  ssd1305.o(.constdata)
+    FP_SUCESS                                0x08017d12   Data         192  ssd1305.o(.constdata)
+    FP_FAILE                                 0x08017dd2   Data         192  ssd1305.o(.constdata)
+    FP_EXIT                                  0x08017e92   Data         160  ssd1305.o(.constdata)
+    FP_OUTTIME                               0x08017f32   Data         192  ssd1305.o(.constdata)
+    FP_DEL_SUCESS                            0x08017ff2   Data         128  ssd1305.o(.constdata)
+    FP_DEL_FAILE                             0x08018072   Data         192  ssd1305.o(.constdata)
+    FP_DEL_NO_EXIT                           0x08018132   Data         160  ssd1305.o(.constdata)
+    FP_NULL                                  0x080181d2   Data         128  ssd1305.o(.constdata)
+    FP_REALSE                                0x08018252   Data         160  ssd1305.o(.constdata)
+    FP_FULL                                  0x080182f2   Data         128  ssd1305.o(.constdata)
+    SET_SUCESS                               0x08018372   Data         128  ssd1305.o(.constdata)
+    SET_FAIL                                 0x080183f2   Data         128  ssd1305.o(.constdata)
+    CONFIRM_SUCESS                           0x08018472   Data         832  ssd1305.o(.constdata)
+    APP_OPEN                                 0x080187b2   Data         176  ssd1305.o(.constdata)
+    FACTORY_WHETHER                          0x08018862   Data         320  ssd1305.o(.constdata)
+    DATE_SHOW                                0x080189a2   Data         128  ssd1305.o(.constdata)
+    DATE_LOG                                 0x08018a22   Data         640  ssd1305.o(.constdata)
+    SYS_VER                                  0x08018ca2   Data         512  ssd1305.o(.constdata)
+    MAC                                      0x08018ea2   Data          80  ssd1305.o(.constdata)
+    BATTERY                                  0x08018ef2   Data         288  ssd1305.o(.constdata)
+    BATTERY_CLASS                            0x08019012   Data          96  ssd1305.o(.constdata)
+    SOURCE_USED                              0x08019072   Data         640  ssd1305.o(.constdata)
+    LOG_NULL                                 0x080192f2   Data         128  ssd1305.o(.constdata)
+    LOG_HEAD                                 0x08019372   Data         144  ssd1305.o(.constdata)
+    LOG_STATE                                0x08019402   Data         272  ssd1305.o(.constdata)
+    LOG_DATE                                 0x08019512   Data         240  ssd1305.o(.constdata)
+    LOG_TIME                                 0x08019602   Data         208  ssd1305.o(.constdata)
+    LOG_PERMISION                            0x080196d2   Data         192  ssd1305.o(.constdata)
+    LOG_TYPE                                 0x08019792   Data         192  ssd1305.o(.constdata)
+    LOG_OPER                                 0x08019852   Data         192  ssd1305.o(.constdata)
+    TIME_SYS                                 0x08019912   Data         240  ssd1305.o(.constdata)
+    CARD_NON_EXIT                            0x08019a02   Data         160  ssd1305.o(.constdata)
+    CARD_FULL                                0x08019aa2   Data         128  ssd1305.o(.constdata)
+    CARD_RIGISTER                            0x08019b22   Data         160  ssd1305.o(.constdata)
+    CARD_EXIT                                0x08019bc2   Data         160  ssd1305.o(.constdata)
+    CARD_ADD_SUC                             0x08019c62   Data         128  ssd1305.o(.constdata)
+    CARD_NULL                                0x08019ce2   Data         128  ssd1305.o(.constdata)
+    SYS_RESET                                0x08019d62   Data         240  ssd1305.o(.constdata)
+    SYS_EXIT                                 0x08019e52   Data         128  ssd1305.o(.constdata)
+    HOOK                                     0x08019ed2   Data          16  ssd1305.o(.constdata)
+    CONFIG_WLAN                              0x08019ee2   Data         416  ssd1305.o(.constdata)
+    WLAN_COUNTDOWN                           0x0801a082   Data         160  ssd1305.o(.constdata)
+    WLAN_TIME_SYS                            0x0801a122   Data         256  ssd1305.o(.constdata)
+    WLAN_UNLOCK_COUNTDOWN                    0x0801a222   Data         224  ssd1305.o(.constdata)
+    BATTERY_UPDATE                           0x0801a302   Data         176  ssd1305.o(.constdata)
+    BATTERY_WARN                             0x0801a3b2   Data         320  ssd1305.o(.constdata)
+    WLAN_SUCESSFUL                           0x0801a4f2   Data         128  ssd1305.o(.constdata)
+    WLAN_FAIL                                0x0801a572   Data         128  ssd1305.o(.constdata)
+    WLAN_STARTUP                             0x0801a5f2   Data         176  ssd1305.o(.constdata)
+    WLAN_SUCESS_F                            0x0801a6a2   Data         192  ssd1305.o(.constdata)
+    WLAN_FAIL_F                              0x0801a762   Data         144  ssd1305.o(.constdata)
+    HJS_COUNT                                0x0801a7f2   Data         192  ssd1305.o(.constdata)
+    FACTORY_S                                0x0801a8b2   Data         128  ssd1305.o(.constdata)
+    FACTORY_F                                0x0801a932   Data         128  ssd1305.o(.constdata)
+    FACTORY_SEL                              0x0801a9b2   Data         304  ssd1305.o(.constdata)
+    KEY_FACTORY                              0x0801aae2   Data         128  ssd1305.o(.constdata)
+    WLAN_STATUE                              0x0801ab62   Data         448  ssd1305.o(.constdata)
+    KEY_LOCK                                 0x0801ad22   Data         224  ssd1305.o(.constdata)
+    IPHONE_RESULT                            0x0801ae02   Data         224  ssd1305.o(.constdata)
+    IPHONE_NONEXISTENT                       0x0801aee2   Data         224  ssd1305.o(.constdata)
+    IPHONE_OFFLINE                           0x0801afc2   Data         112  ssd1305.o(.constdata)
+    IPHONE_APPOINT                           0x0801b032   Data         384  ssd1305.o(.constdata)
+    IPHONE_NUM                               0x0801b1b2   Data         192  ssd1305.o(.constdata)
+    LINE_D                                   0x0801b272   Data          16  ssd1305.o(.constdata)
+    DOUBLE_SPOT                              0x0801b282   Data          16  ssd1305.o(.constdata)
+    LINE                                     0x0801b292   Data          16  ssd1305.o(.constdata)
+    __ctype_table                            0x0801b984   Data         129  ctype_o.o(.constdata)
+    Region$$Table$$Base                      0x0801bae4   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x0801bb04   Number         0  anon$$obj.o(Region$$Table)
     finger_press_flag                        0x20000000   Data           1  main.o(.data)
     facteryReset                             0x20000001   Data           1  main.o(.data)
     prying_flag                              0x20000002   Data           1  main.o(.data)
@@ -5707,9 +5707,9 @@ Memory Map of the image
 
   Image Entry point : 0x0800018d
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0001bbac, Max: 0x00040000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x0001bbe0, Max: 0x00040000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x0001bad0, Max: 0x00040000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x0001bb04, Max: 0x00040000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -6276,49 +6276,49 @@ Memory Map of the image
     0x08014184   0x000002d4   Code   RO         6727    i.wifi_parase_time  wifi_8266.o
     0x08014458   0x00000010   Code   RO         6728    i.wifi_power_off    wifi_8266.o
     0x08014468   0x00000028   Code   RO         6729    i.wifi_power_on     wifi_8266.o
-    0x08014490   0x000007da   Code   RO         6730    i.wifi_remote_open  wifi_8266.o
-    0x08014c6a   0x00000002   PAD
-    0x08014c6c   0x00000024   Code   RO         6731    i.wifi_rxBuff_clear  wifi_8266.o
-    0x08014c90   0x00000118   Code   RO         6732    i.wifi_server_time_syn  wifi_8266.o
-    0x08014da8   0x0000033e   Code   RO         6733    i.wifi_smart_config  wifi_8266.o
-    0x080150e6   0x00000002   PAD
-    0x080150e8   0x000000cc   Code   RO         6734    i.wifi_trans_recev_command  wifi_8266.o
-    0x080151b4   0x000000d0   Code   RO         6735    i.wifi_upload_alarm_info  wifi_8266.o
-    0x08015284   0x0000042e   Code   RO         6736    i.wifi_upload_all_info  wifi_8266.o
-    0x080156b2   0x00000028   Code   RO         6737    i.wifi_upload_battery  wifi_8266.o
-    0x080156da   0x00000002   PAD
-    0x080156dc   0x000001f4   Code   RO         6738    i.wifi_upload_send  wifi_8266.o
-    0x080158d0   0x00000120   Code   RO         6739    i.wifi_upload_tryErr_info  wifi_8266.o
-    0x080159f0   0x0000024a   Code   RO         6740    i.wifi_upload_user_info  wifi_8266.o
-    0x08015c3a   0x0000003a   Data   RO           22    .constdata          main.o
-    0x08015c74   0x00000040   Data   RO         5179    .constdata          system_stm32l4xx.o
-    0x08015cb4   0x00000008   Data   RO         5180    .constdata          system_stm32l4xx.o
-    0x08015cbc   0x00000022   Data   RO         5259    .constdata          apt8l16.o
-    0x08015cde   0x0000561d   Data   RO         5468    .constdata          ssd1305.o
-    0x0801b2fb   0x00000026   Data   RO         6043    .constdata          stmflash.o
-    0x0801b321   0x00000019   Data   RO         6166    .constdata          nfc9883.o
-    0x0801b33a   0x00000002   PAD
-    0x0801b33c   0x00000080   Data   RO         6216    .constdata          menu.o
-    0x0801b3bc   0x000000dd   Data   RO         6324    .constdata          user_operator.o
-    0x0801b499   0x00000047   Data   RO         6458    .constdata          keyboard.o
-    0x0801b4e0   0x0000001d   Data   RO         6515    .constdata          fpcst90x.o
-    0x0801b4fd   0x0000000b   Data   RO         6642    .constdata          flash.o
-    0x0801b508   0x00000013   Data   RO         6686    .constdata          nfc.o
-    0x0801b51b   0x00000001   PAD
-    0x0801b51c   0x0000015a   Data   RO         6742    .constdata          wifi_8266.o
-    0x0801b676   0x00000138   Data   RO         7744    .constdata          nfc9883.lib(phhalhw_rc663.o)
-    0x0801b7ae   0x0000000d   Data   RO         8137    .constdata          nfc9883.lib(regctl_spihw.o)
-    0x0801b7bb   0x00000001   PAD
-    0x0801b7bc   0x0000017e   Data   RO         8366    .constdata          nfc9883.lib(phhalhw_rc663_int.o)
-    0x0801b93a   0x00000016   Data   RO         8472    .constdata          nfc9883.lib(phhalhw_rc663_wait.o)
-    0x0801b950   0x00000081   Data   RO         9045    .constdata          mc_w.l(ctype_o.o)
-    0x0801b9d1   0x00000003   PAD
-    0x0801b9d4   0x00000004   Data   RO         9046    .constdata          mc_w.l(ctype_o.o)
-    0x0801b9d8   0x00000043   Data   RO         6217    .conststring        menu.o
-    0x0801ba1b   0x00000001   PAD
-    0x0801ba1c   0x00000092   Data   RO         6743    .conststring        wifi_8266.o
-    0x0801baae   0x00000002   PAD
-    0x0801bab0   0x00000020   Data   RO         9076    Region$$Table       anon$$obj.o
+    0x08014490   0x0000080e   Code   RO         6730    i.wifi_remote_open  wifi_8266.o
+    0x08014c9e   0x00000002   PAD
+    0x08014ca0   0x00000024   Code   RO         6731    i.wifi_rxBuff_clear  wifi_8266.o
+    0x08014cc4   0x00000118   Code   RO         6732    i.wifi_server_time_syn  wifi_8266.o
+    0x08014ddc   0x0000033e   Code   RO         6733    i.wifi_smart_config  wifi_8266.o
+    0x0801511a   0x00000002   PAD
+    0x0801511c   0x000000cc   Code   RO         6734    i.wifi_trans_recev_command  wifi_8266.o
+    0x080151e8   0x000000d0   Code   RO         6735    i.wifi_upload_alarm_info  wifi_8266.o
+    0x080152b8   0x0000042e   Code   RO         6736    i.wifi_upload_all_info  wifi_8266.o
+    0x080156e6   0x00000028   Code   RO         6737    i.wifi_upload_battery  wifi_8266.o
+    0x0801570e   0x00000002   PAD
+    0x08015710   0x000001f4   Code   RO         6738    i.wifi_upload_send  wifi_8266.o
+    0x08015904   0x00000120   Code   RO         6739    i.wifi_upload_tryErr_info  wifi_8266.o
+    0x08015a24   0x0000024a   Code   RO         6740    i.wifi_upload_user_info  wifi_8266.o
+    0x08015c6e   0x0000003a   Data   RO           22    .constdata          main.o
+    0x08015ca8   0x00000040   Data   RO         5179    .constdata          system_stm32l4xx.o
+    0x08015ce8   0x00000008   Data   RO         5180    .constdata          system_stm32l4xx.o
+    0x08015cf0   0x00000022   Data   RO         5259    .constdata          apt8l16.o
+    0x08015d12   0x0000561d   Data   RO         5468    .constdata          ssd1305.o
+    0x0801b32f   0x00000026   Data   RO         6043    .constdata          stmflash.o
+    0x0801b355   0x00000019   Data   RO         6166    .constdata          nfc9883.o
+    0x0801b36e   0x00000002   PAD
+    0x0801b370   0x00000080   Data   RO         6216    .constdata          menu.o
+    0x0801b3f0   0x000000dd   Data   RO         6324    .constdata          user_operator.o
+    0x0801b4cd   0x00000047   Data   RO         6458    .constdata          keyboard.o
+    0x0801b514   0x0000001d   Data   RO         6515    .constdata          fpcst90x.o
+    0x0801b531   0x0000000b   Data   RO         6642    .constdata          flash.o
+    0x0801b53c   0x00000013   Data   RO         6686    .constdata          nfc.o
+    0x0801b54f   0x00000001   PAD
+    0x0801b550   0x0000015a   Data   RO         6742    .constdata          wifi_8266.o
+    0x0801b6aa   0x00000138   Data   RO         7744    .constdata          nfc9883.lib(phhalhw_rc663.o)
+    0x0801b7e2   0x0000000d   Data   RO         8137    .constdata          nfc9883.lib(regctl_spihw.o)
+    0x0801b7ef   0x00000001   PAD
+    0x0801b7f0   0x0000017e   Data   RO         8366    .constdata          nfc9883.lib(phhalhw_rc663_int.o)
+    0x0801b96e   0x00000016   Data   RO         8472    .constdata          nfc9883.lib(phhalhw_rc663_wait.o)
+    0x0801b984   0x00000081   Data   RO         9045    .constdata          mc_w.l(ctype_o.o)
+    0x0801ba05   0x00000003   PAD
+    0x0801ba08   0x00000004   Data   RO         9046    .constdata          mc_w.l(ctype_o.o)
+    0x0801ba0c   0x00000043   Data   RO         6217    .conststring        menu.o
+    0x0801ba4f   0x00000001   PAD
+    0x0801ba50   0x00000092   Data   RO         6743    .conststring        wifi_8266.o
+    0x0801bae2   0x00000002   PAD
+    0x0801bae4   0x00000020   Data   RO         9076    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x0000beb0, Max: 0x00010000, ABSOLUTE)
@@ -6377,57 +6377,57 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       178          6          0          0          0       1554   74hc595.o
-       204         44          0          0        100       1645   adc.o
-      1016        168         34         18          0       5853   apt8l16.o
+       178          6          0          0          0       1546   74hc595.o
+       204         44          0          0        100       1641   adc.o
+      1016        168         34         18          0       5845   apt8l16.o
         48          0          0          0          0        687   delay.o
-      1386        394         11         24          0       3466   flash.o
-      3838        838         29          4       1024      16633   fpcst90x.o
+      1386        394         11         24          0       3454   flash.o
+      3838        838         29          4       1024      16601   fpcst90x.o
        498         32          0          0          0       1135   gpio.o
-       136         24          0          0          0       1020   hsj08.o
-       428         90          0          0        152       2754   i2c.o
-        72         26          0          0         16       3361   iwdg.o
+       136         24          0          0          0       1016   hsj08.o
+       428         90          0          0        152       2750   i2c.o
+        72         26          0          0         16       3357   iwdg.o
       2394        700         71          0          0       4799   keyboard.o
-      1778        506         58         31       3092     756168   main.o
-      6726       1642        195         10         40      14443   menu.o
-      1628        494         19          0         34       3026   nfc.o
-      1042        254         25         24        369       2745   nfc9883.o
-       356         72          0          0         36       2135   rtc.o
-       220         50          0          0        100       2117   spi.o
-     15050       1096      22045          4       2048      72267   ssd1305.o
+      1778        506         58         31       3092     756128   main.o
+      6726       1642        195         10         40      14423   menu.o
+      1628        494         19          0         34       3022   nfc.o
+      1042        254         25         24        369       2741   nfc9883.o
+       356         72          0          0         36       2119   rtc.o
+       220         50          0          0        100       2113   spi.o
+     15050       1096      22045          4       2048      72159   ssd1305.o
         36          8        396          0      40960        832   startup_stm32l431xx.o
        106         18          0          4          0       3527   stm32l4xx_hal.o
-      2332        102          0          0          0      65752   stm32l4xx_hal_adc.o
-       250         14          0          0          0      32795   stm32l4xx_hal_cortex.o
+      2332        102          0          0          0      65728   stm32l4xx_hal_adc.o
+       250         14          0          0          0      32783   stm32l4xx_hal_cortex.o
         78          0          0          0          0       1075   stm32l4xx_hal_dma.o
        406         48          0         32          0       5138   stm32l4xx_hal_flash.o
-       374         24          0          0          0       3949   stm32l4xx_hal_flash_ex.o
-       732         60          0          0          0       4532   stm32l4xx_hal_gpio.o
-      1848         50          0          0          0      12896   stm32l4xx_hal_i2c.o
-       208         10          0          0          0       2582   stm32l4xx_hal_i2c_ex.o
-       106          0          0          0          0       1767   stm32l4xx_hal_iwdg.o
-       128          6          0          0          0        902   stm32l4xx_hal_msp.o
+       374         24          0          0          0       3945   stm32l4xx_hal_flash_ex.o
+       732         60          0          0          0       4524   stm32l4xx_hal_gpio.o
+      1848         50          0          0          0      12876   stm32l4xx_hal_i2c.o
+       208         10          0          0          0       2570   stm32l4xx_hal_i2c_ex.o
+       106          0          0          0          0       1759   stm32l4xx_hal_iwdg.o
+       128          6          0          0          0        898   stm32l4xx_hal_msp.o
         16          4          0          0          0        543   stm32l4xx_hal_pwr.o
        176         30          0          0          0       1981   stm32l4xx_hal_pwr_ex.o
-      2152        106          0          0          0       8916   stm32l4xx_hal_rcc.o
-      1014         36          0          0          0       3637   stm32l4xx_hal_rcc_ex.o
-      1388         34          0          0          0       8834   stm32l4xx_hal_rtc.o
+      2152        106          0          0          0       8900   stm32l4xx_hal_rcc.o
+      1014         36          0          0          0       3629   stm32l4xx_hal_rcc_ex.o
+      1388         34          0          0          0       8818   stm32l4xx_hal_rtc.o
       1158          0          0          0          0       5981   stm32l4xx_hal_spi.o
-       990         24          0          0          0      10572   stm32l4xx_hal_tim.o
-        94          6          0          0          0       3021   stm32l4xx_hal_tim_ex.o
-      2014         74          0          0          0      12836   stm32l4xx_hal_uart.o
-         2          0          0          0          0       1000   stm32l4xx_hal_uart_ex.o
-       236         42          0          0          0       8977   stm32l4xx_it.o
-       520        198         38          0          0       3603   stmflash.o
-        68         12         72          4          0       1213   system_stm32l4xx.o
+       990         24          0          0          0      10548   stm32l4xx_hal_tim.o
+        94          6          0          0          0       3017   stm32l4xx_hal_tim_ex.o
+      2014         74          0          0          0      12828   stm32l4xx_hal_uart.o
+         2          0          0          0          0        996   stm32l4xx_hal_uart_ex.o
+       236         42          0          0          0       8953   stm32l4xx_it.o
+       520        198         38          0          0       3595   stmflash.o
+        68         12         72          4          0       1209   system_stm32l4xx.o
        464         92          0          0        192       3265   tim.o
-       616        126          0          0        360       4213   usart.o
-      9802       2264        221          4          0      22564   user_operator.o
-      7478       2702        492         40         64      20710   wifi_8266.o
-       438         52          0          0          0       2495   win6170.o
+       616        126          0          0        360       4193   usart.o
+      9802       2264        221          4          0      22536   user_operator.o
+      7530       2702        492         40         64      20718   wifi_8266.o
+       438         52          0          0          0       2491   win6170.o
 
     ----------------------------------------------------------------------
-     72372      12578      23744        204      48596    1155916   Object Totals
+     72424      12578      23744        204      48596    1155392   Object Totals
          0          0         32          0          0          0   (incl. Generated)
        144          0          6          5          9          0   (incl. Padding)
 
@@ -6512,15 +6512,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     88750      13340      24610        220      48596    1206654   Grand Totals
-     88750      13340      24610        220      48596    1206654   ELF Image Totals
-     88750      13340      24610        220          0          0   ROM Totals
+     88802      13340      24610        220      48596    1206130   Grand Totals
+     88802      13340      24610        220      48596    1206130   ELF Image Totals
+     88802      13340      24610        220          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)               113360 ( 110.70kB)
+    Total RO  Size (Code + RO Data)               113412 ( 110.75kB)
     Total RW  Size (RW Data + ZI Data)             48816 (  47.67kB)
-    Total ROM Size (Code + RO Data + RW Data)     113580 ( 110.92kB)
+    Total ROM Size (Code + RO Data + RW Data)     113632 ( 110.97kB)
 
 ==============================================================================
 
